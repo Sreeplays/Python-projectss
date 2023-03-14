@@ -59,27 +59,24 @@ filenametext.place(x=300, y=345)
 #Buttons and its fucntions
 start =  Button(root, text="Rec", bg="#fff", font="arial 15 bold", bd=0, command=start_rec)
 start.place(x=367, y=161)
-
+#PAUSE
 image4 = PhotoImage(file="D:\Sriram\Python projects\Python-tkinter-projects\Images\pause.png")
 pause = Button(root, image=image4, bg="#969696", bd=0, command=pause_rec)
 pause.place(x=80, y=450)
-
 pausetext = Label(root, text="Pause", font="Helvetica 10 bold", bd=0, bg="#969696")
 pausetext.pack(pady=20)
 pausetext.place(x=95, y=530)
-
+#RESUME
 image5 = PhotoImage(file=r"D:\Sriram\Python projects\Python-tkinter-projects\Images\unpause.png")
 resume = Button(root, image=image5, bg="#969696", bd=0, command=resume_rec)
 resume.place(x=350, y=450)
-
 resumetext = Label(root, text="Pause", font="Helvetica 10 bold", bd=0, bg="#969696")
 resumetext.pack(pady=20)
 resumetext.place(x=365, y=530)
-
+#STOP
 image6 = PhotoImage(file="D:\Sriram\Python projects\Python-tkinter-projects\Images\stop.png")
 stop = Button(root, image=image6, bg="#969696", bd=0, command=stop_rec)
 stop.place(x=585, y=450)
-
 stoptext = Label(root, text="Stop", font="Helvetica 10 bold", bd=0, bg="#969696")
 stoptext.pack(pady=20)
 stoptext.place(x=615, y=530)
