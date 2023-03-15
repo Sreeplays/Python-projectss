@@ -14,7 +14,7 @@ root.config(bg="#969696")
 def start_rec():
     file = Filename.get()
     rec.start_recording(str(file+'.mp4'),5)
-    
+
 def pause_rec():
     rec.pause_recording()
 def stop_rec():
